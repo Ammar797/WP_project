@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans' , sans-serif;
+}
+
+.Footer {
+    Background-Size: Cover;
+    Background-Repeat: No-Repeat;
+    Background-Position: Center;
+    Width: 100%;
+    Height: 400px;
+    Position: Relative;
+    Display: Flex;
+    Flex-Flow: Row Wrap;
+    Justify-Content: Center;
+    Align-Items: Center;
+  }
+  
+  .Footer::Before {
+    Position: Absolute;
+    Content: "";
+    Display: Block;
+    Background-Color: Rgba(0, 0, 36, 0.8);
+    Top: 0;
+    Left: 0;
+    Bottom: 0;
+    Right: 0;
+  }
+  
+  .Footer .Links {
+    Position: Relative;
+    Color: #Fff;
+    Flex: 1;
+    Display: Flex;
+    Flex-Flow: Column;
+    Justify-Content: Center;
+    Align-Items: Center;
+  }
+  
+  .Links Ul {
+    List-Style-Type: None;
+  }
+  
+  .Links H3 {
+    Font-Family: Barlow Condensed;
+    Font-Weight: Normal;
+    Font-Size: 23px;
+    Margin-Bottom: 15px;
+  }
+  
+  .Links Li {
+    Font-Family: Roboto;
+    Cursor: Pointer;
+    Padding: 15px 0;
+  }
+  
+  .Links Li:Hover {
+    Color: #Ffa801;
+  }

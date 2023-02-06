@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans' , sans-serif;
+}
+
+.About {
+  Display: Flex;
+  Flex-Flow: Row Wrap;
+  Align-Items: Center;
+  Justify-Content: Center;
+  Padding: 150px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.About-Img {
+  Flex: 1;
+}
+
+.About-Img Img {
+  Width: 500px;
+  Height: 700px;
+  Box-Shadow: 2px 2px 6px 0 Rgba(0, 0, 0, 0.3);
+}
+
+.About-Text {
+  Flex: 1;
+  /*Width: 100px;*/
+  Display: Flex;
+  Flex-Flow: Column Wrap;
+}
+
+.About-Text Small,
+.About-Text P,
+.About-Text Input,
+.About-Text A {
+  Flex: 1;
+  Font-Family: Roboto;
+}
+
+.About-Text Small {
+  Color: #Ffc342;
+  Font-Size: 18px;
+}
+
+.About-Text H2 {
+  Flex: 1;
+  Font-Family: Barlow Condensed;
+  Font-Size: 60px;
+  Color: #191d34;
+  Width: 450px;
+}
+
+.About-Text Label {
+  Padding-Bottom: 10px;
+  Color: #506172;
+  Font-Weight: Bolder;
+  Font-Family: Roboto;
+  Letter-Spacing: 1px;
+}
+
+.About-Text P {
+  Width: 500px;
+  Line-Height: 30px;
+  Color: #506172;
+  Font-Weight: Bolder;
+  Padding: 50px 0;
+}
+
+.About-Text A {
+  Background-Color: #Fff;
+  Border: 2px Solid #014b85;
+  Text-Decoration: None;
+  Border-Radius: 5px;
+  Width: 180px;
+  Padding: 20px;
+  Text-Align: Center;
+  Margin-Top: 50px;
+  Color: #014b85;
+  Font-Weight: Bolder;
+  Font-Size: 14px;
+}
+
+.About-Text A:Hover {
+  Background-Color: #014b85;
+  Color: #Fff;
+}

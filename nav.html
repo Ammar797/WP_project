@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="nav.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <ul class="company">
+                <li style="font-size: large;" class="logo"><a href="project.html"><div class="img"><img src="navimg.png"></div>NOMADIC</a></li>
+            </ul>
+            <ul>
+                <li style="font-size: large;"><a href="About.html">ABOUT</a></li>
+                <li style="font-size: large;"><a href="tours.html">TOURS</a></li>
+                <li style="font-size: large;"><a href="blog.html">BLOG</a></li>
+                <li style="font-size: large;"><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <div class="container">
+                <button class="reg" style="font-size: medium;" onclick="Openpop()">Sign in</button>
+        </nav> 
+        <!-- <div class="popup" id="popup">
+            <p>dasadadasddasdsadsadsa</p>
+            <p>dwdfasdadasdas</p>
+        </div> -->
+        <script>
+            let popup = document.getElementById("popup")
+
+            function Openpop(){
+                popup.classList.add("open-popup")
+            }
+        </script>
+    </body>
+</html>
